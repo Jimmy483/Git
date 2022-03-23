@@ -23,11 +23,7 @@ public class Main {
         System.out.println("Employee Detail");
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
 
     }
 }
